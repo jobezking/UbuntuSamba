@@ -10,8 +10,8 @@ sudo chmod 777 /media/mount2 #for CIFS 2.0
 sudo chmod 777 /media/mount3 #for USB 1
 sudo chmod 777 /media/mount4 #for USB 2
 #contents of fstab file begin
-//192.168.1.75/public /media/mount1 cifs vers=1.0,file_mode=0777,username=jobezking,password=ephesians511
-//192.168.1.240/smbsha /media/mount2 cifs vers=2.0,file_mode=0777,username=jeking,password=ephesians511
+//192.168.1.75/public /media/mount1 cifs vers=1.0,file_mode=0777,username=username,password=password
+//192.168.1.240/smbsha /media/mount2 cifs vers=2.0,file_mode=0777,username=username,password=password
 /dev/sdb1 /media/mount3 ntfs rwx 0 0
 /dev/sdc1 /media/mount4 ntfs rwx 0 0
 #contents of fstab end
